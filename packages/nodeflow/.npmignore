@@ -1,0 +1,5 @@
+src
+coverage
+docs
+vitest.config.ts
+__tests__

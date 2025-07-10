@@ -1,0 +1,31 @@
+{
+  "name": "nodeflow",
+  "version": "0.0.1",
+  "author": "strblr",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "A renderer‑agnostic library for building interactive flowcharts, graphs, and node‑based editors - fully customizable with theming and plugin support",
+  "homepage": "https://github.com/strblr/nodeflow#readme",
+  "bugs": {
+    "url": "https://github.com/strblr/nodeflow/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strblr/nodeflow.git"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.8.3"
+  }
+}
